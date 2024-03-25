@@ -1,7 +1,18 @@
 ## GameGO
 
-This is a Gaming Store MVC Spring project.
+Gaming Store MVC Java Spring project.
 
-The goal is to have CRUD functionality and implement separation of concerns using MVC as the design method.
+The REST API has CRUD functionality and implements separation of concerns using MVC as the design method.
+
+The first stepping stone is to get the API up and running. This requires the controller and service implementation.
+
+- Controller Implementation
+
+- DAO - Games, Consoles
+
+- Service Implementation
+- Model Memory (Initially)
+
+The model is initially using memory. A database implementation will occur at a future date.
 
 UserI/O (input/output) - enable a user to perform all input/output operations for a data set

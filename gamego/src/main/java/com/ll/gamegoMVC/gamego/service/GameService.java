@@ -20,4 +20,21 @@ public class GameService {
 
         return games;
     }
+    //Might be returning the wrong type
+    public GameDAO getGameId(String id){
+        GameDAO game = gameRepository.findById(id).get();
+        return game;
+    }
+
+    public void addGame(GameDAO game){
+        gameRepository.save(game);
+    }
+
+    public void updateGame(GameDAO game){
+        gameRepository.save(game);
+    }
+
+    public void removeGame(String id){
+        gameRepository.deleteById(id);
+    }
 }

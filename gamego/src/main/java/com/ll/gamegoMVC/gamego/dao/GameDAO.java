@@ -2,10 +2,19 @@ package com.ll.gamegoMVC.gamego.dao;
 
 public class GameDAO {
 
-    private String id;
-    
+    private String id;    
     private String name;
     private float cost;
+
+    
+    
+    
+    public GameDAO(String id, String name, float cost) {
+        super();
+        this.id = id;
+        this.name = name;
+        this.cost = cost;
+    }
     
     public String getId() {
         return id;

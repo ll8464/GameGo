@@ -16,3 +16,5 @@ The first stepping stone is to get the API up and running. This requires the con
 The model is initially using memory. A database implementation will occur at a future date.
 
 UserI/O (input/output) - enable a user to perform all input/output operations for a data set
+
+Controller - The controller does not talk to the Repository. It interacts only with the Data Access Object and Service Layer.

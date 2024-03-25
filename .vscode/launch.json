@@ -1,0 +1,21 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "App",
+      "request": "launch",
+      "mainClass": "com.ll.gamegoMVC.App",
+      "projectName": "gamego"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-App<gamego>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.ll.gamegoMVC.gamego.App",
+      "projectName": "gamego",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}

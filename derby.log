@@ -1,0 +1,77 @@
+----------------------------------------------------------------
+Wed Mar 27 10:09:29 CDT 2024:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.16.1.1 - (1901046): instance a816c00e-018e-8075-85d0-0000043abf50 
+on database directory memory:C:\Users\leela\OneDrive\Documents\Git\vscode\GameGoMVC\2a1778ca-a329-4186-bcd7-cfd474b1f50b with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2a139a55 
+Loaded from file:/C:/Users/leela/.m2/repository/org/apache/derby/derby/10.16.1.1/derby-10.16.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=17.0.7+8-LTS-224
+user.dir=C:\Users\leela\OneDrive\Documents\Git\vscode\GameGoMVC
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Wed Mar 27 10:15:57 CDT 2024:
+Shutting down instance a816c00e-018e-8075-85d0-0000043abf50 on database directory memory:C:\Users\leela\OneDrive\Documents\Git\vscode\GameGoMVC\2a1778ca-a329-4186-bcd7-cfd474b1f50b with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2a139a55 
+----------------------------------------------------------------
+Wed Mar 27 10:15:58 CDT 2024:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.16.1.1 - (1901046): instance 59e70108-018e-8075-85d0-0000043abf50 
+on database directory memory:C:\Users\leela\OneDrive\Documents\Git\vscode\GameGoMVC\e5a4bf7a-ca8c-4749-b93c-e19659e19010 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2a139a55 
+Loaded from file:/C:/Users/leela/.m2/repository/org/apache/derby/derby/10.16.1.1/derby-10.16.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=17.0.7+8-LTS-224
+user.dir=C:\Users\leela\OneDrive\Documents\Git\vscode\GameGoMVC
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Wed Mar 27 10:19:52 CDT 2024:
+Shutting down instance 59e70108-018e-8075-85d0-0000043abf50 on database directory memory:C:\Users\leela\OneDrive\Documents\Git\vscode\GameGoMVC\e5a4bf7a-ca8c-4749-b93c-e19659e19010 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2a139a55 
+----------------------------------------------------------------
+Wed Mar 27 10:19:53 CDT 2024:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.16.1.1 - (1901046): instance 2140c203-018e-8075-85d0-0000043abf50 
+on database directory memory:C:\Users\leela\OneDrive\Documents\Git\vscode\GameGoMVC\0ff971fd-343e-418c-8911-774758ece518 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2a139a55 
+Loaded from file:/C:/Users/leela/.m2/repository/org/apache/derby/derby/10.16.1.1/derby-10.16.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=17.0.7+8-LTS-224
+user.dir=C:\Users\leela\OneDrive\Documents\Git\vscode\GameGoMVC
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Wed Mar 27 10:40:17 CDT 2024:
+Shutting down instance 2140c203-018e-8075-85d0-0000043abf50 on database directory memory:C:\Users\leela\OneDrive\Documents\Git\vscode\GameGoMVC\0ff971fd-343e-418c-8911-774758ece518 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2a139a55 
+----------------------------------------------------------------
+Wed Mar 27 10:40:19 CDT 2024:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.16.1.1 - (1901046): instance a0600301-018e-8075-85d0-0000043abf50 
+on database directory memory:C:\Users\leela\OneDrive\Documents\Git\vscode\GameGoMVC\c8e1b37b-9548-486e-8e30-b9612c4ab01e with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2a139a55 
+Loaded from file:/C:/Users/leela/.m2/repository/org/apache/derby/derby/10.16.1.1/derby-10.16.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=17.0.7+8-LTS-224
+user.dir=C:\Users\leela\OneDrive\Documents\Git\vscode\GameGoMVC
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Wed Mar 27 10:43:33 CDT 2024:
+Shutting down instance a0600301-018e-8075-85d0-0000043abf50 on database directory memory:C:\Users\leela\OneDrive\Documents\Git\vscode\GameGoMVC\c8e1b37b-9548-486e-8e30-b9612c4ab01e with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2a139a55 
+----------------------------------------------------------------
+Wed Mar 27 10:43:34 CDT 2024:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.16.1.1 - (1901046): instance 1a83c3fb-018e-8075-85d0-0000043abf50 
+on database directory memory:C:\Users\leela\OneDrive\Documents\Git\vscode\GameGoMVC\7ab51f64-2b6a-4649-a218-08e4bf955d55 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2a139a55 
+Loaded from file:/C:/Users/leela/.m2/repository/org/apache/derby/derby/10.16.1.1/derby-10.16.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=17.0.7+8-LTS-224
+user.dir=C:\Users\leela\OneDrive\Documents\Git\vscode\GameGoMVC
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

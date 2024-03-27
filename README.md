@@ -28,3 +28,7 @@ UserI/O (input/output) - enable a user to perform all input/output operations fo
 Controller - The controller does not talk to the Repository. It interacts only with the Data Access Object and Service Layer.
 
 Log: The Game Endpoint cannot be found.
+This was a configuration issue. Added Configuration to the App file for each package which resolved the error.
+
+500 Error -Circular view path [game]: would dispatch back to the current handler URL [/game] again
+This error was caused by using @Controller instead of @RestController

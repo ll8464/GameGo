@@ -1,7 +1,10 @@
 package com.ll.gamegoMVC.gamego.dao;
 
+
+
 public class GameDAO {
 
+    
     private String id;    
     private String name;
     private float cost;
@@ -15,7 +18,7 @@ public class GameDAO {
         this.name = name;
         this.cost = cost;
     }
-    
+
     public String getId() {
         return id;
     }

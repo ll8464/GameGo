@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.ll.gamegoMVC.gamego.dao.ConsoleDAO;
+import com.ll.gamegoMVC.gamego.dao.GameDAO;
 import com.ll.gamegoMVC.gamego.service.ConsoleService;
 
 @RestController
@@ -34,6 +35,12 @@ public class ConsoleController {
     
     @PostMapping("console")
     public void addConsole(@RequestBody ConsoleDAO console) {                
+        consoleService.addConsole(console);
+    }
+
+    @PostMapping("console/{gameId}")
+    public void addConsoleWithGame(@RequestBody ConsoleDAO console, @PathVariable String gameId) {
+        console.setGameDAO(new GameDAO(gameId, "", 0));                
         consoleService.addConsole(console);
     }
     

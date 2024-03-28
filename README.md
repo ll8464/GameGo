@@ -29,7 +29,28 @@ UserI/O (input/output) - enable a user to perform all input/output operations fo
 
 Controller - The controller does not talk to the Repository. It interacts only with the Data Access Object and Service Layer.
 
-# Log:
+# DAO/DTO
+
+The two Data Access Objects are Game and Console.
+
+- Game has the fields id, name, and cost
+- Console has the fields id, name, cost and gameId
+
+The Console has a Many to One relationship with game since multiple games can be on the same console.
+
+# Issues
+
+When creating a Console using the "/console/{gameId}" path, is a console id ever created? Or is the gameId being added as
+the console id?
+
+Turns out, the RequestBody when you make the POST request is for the console when using this path. This associates the
+gameId in the pathVariable to the newly created Console.
+
+Another finding is that adding another game to the same console overrides the previous game instead of adding to it.
+
+Need a addGameToConsole method.
+
+# Bug Log:
 
 ~~ The Game Endpoint cannot be found. ~~
 

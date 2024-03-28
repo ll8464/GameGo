@@ -2,6 +2,7 @@ package com.ll.gamegoMVC.gamego.dao;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
+import jakarta.persistence.ManyToOne;
 
 @Entity
 public class ConsoleDAO {
@@ -9,9 +10,12 @@ public class ConsoleDAO {
     private String id;
     private String name;
     private float cost;
+    @ManyToOne
+    private GameDAO gameDAO;
 
 
 
+    
     public ConsoleDAO(){}
     
     public ConsoleDAO(String id, String name, float cost) {
@@ -19,6 +23,14 @@ public class ConsoleDAO {
         this.id = id;
         this.name = name;
         this.cost = cost;
+    }
+
+    public ConsoleDAO(String id, String name, float cost, String gameId) {
+        super();
+        this.id = id;
+        this.name = name;
+        this.cost = cost;
+        this.gameDAO = new GameDAO(gameId,"",0);
     }
 
     public String getId() {
@@ -39,6 +51,13 @@ public class ConsoleDAO {
     public void setCost(float cost) {
         this.cost = cost;
     }
-
-
+    public GameDAO getGameDAO() {
+        return gameDAO;
+    }
+    
+    public void setGameDAO(GameDAO gameDAO) {
+        this.gameDAO = gameDAO;
+    }
+    
+    
 }

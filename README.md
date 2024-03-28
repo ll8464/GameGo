@@ -21,16 +21,20 @@ The current iteration utilizes Apache Derby. JPA, now jakarta, is used for the O
 
 # View
 
+A front-end web interface that allows the addition and removal of games can potentially be implemented.
+
 UserI/O (input/output) - enable a user to perform all input/output operations for a data set
 
 # Controller
 
 Controller - The controller does not talk to the Repository. It interacts only with the Data Access Object and Service Layer.
 
-# Log: 
-The Game Endpoint cannot be found.
+# Log:
+
+~~ The Game Endpoint cannot be found. ~~
 
 This was a configuration issue. Added Configuration to the App file for each package which resolved the error.
 
-500 Error -Circular view path [game]: would dispatch back to the current handler URL [/game] again
+~~500 Error -Circular view path [game]: would dispatch back to the current handler URL [/game] again ~~
+
 This error was caused by using @Controller instead of @RestController

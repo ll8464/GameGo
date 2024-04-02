@@ -43,6 +43,11 @@ public class ConsoleController {
         console.setGameDAO(new GameDAO(gameId, "", 0));                
         consoleService.addConsole(console);
     }
+
+    @PostMapping("console/game/{consoleId}")
+    public void addGameToConsole(@RequestBody GameDAO game, @PathVariable String consoleId){
+       consoleService.addGameToConsole(game, consoleId);
+    }
     
     @PutMapping("console/{id}")
     public void updateConsole(@PathVariable String id, @RequestBody ConsoleDAO console) {        

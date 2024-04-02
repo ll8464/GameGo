@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.ll.gamegoMVC.gamego.dao.ConsoleDAO;
+import com.ll.gamegoMVC.gamego.dao.GameDAO;
 import com.ll.gamegoMVC.gamego.repository.ConsoleRepository;
 
 @Service
@@ -37,4 +38,13 @@ public class ConsoleService {
     public void removeConsole(String id){
         consoleRepository.deleteById(id);
     }
+
+    public void addGameToConsole(GameDAO game, String consoleId){
+        
+        ConsoleDAO console = getConsoleId(consoleId);               
+        
+        console.setGameDAOList(game, console.getGameDAOList());
+       
+    }
+    
 }

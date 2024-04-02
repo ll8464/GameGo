@@ -49,6 +49,8 @@ gameId in the pathVariable to the newly created Console.
 Another finding is that adding another game to the same console overrides the previous game instead of adding to it.
 
 Need a addGameToConsole method.
+One idea for the addGametoConsole method is to turn the GameDAO field to a List and then simply add GameDAO objects to that list.
+Another is to Embed the GameDAO to the Console Entity via Java Persistance Embeddables.
 
 # Bug Log:
 
